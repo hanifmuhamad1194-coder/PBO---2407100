@@ -9,19 +9,18 @@ public class BangunRuang extends BangunDatar {
         this.tinggi = tinggi;
     }
     
-    // Getter untuk tinggi
+    // Getter dan Setter untuk tinggi (opsional)
     public double getTinggi() {
         return tinggi;
     }
     
-    // Setter untuk tinggi
     public void setTinggi(double tinggi) {
         this.tinggi = tinggi;
     }
     
     // Method untuk menghitung volume
-    // Menggunakan method hitungLuas() dari parent class
     public double hitungVolume() {
-        return hitungLuas() * tinggi;
+        // Menggunakan method hitungLuas dari parent class
+        return this.hitungLuas() * tinggi;
     }
 }

@@ -1,5 +1,5 @@
 public class BangunDatar {
-    // Atribut private (enkapsulasi)
+    // Atribut dengan enkapsulasi (private)
     private double panjang;
     private double lebar;
     
@@ -9,22 +9,19 @@ public class BangunDatar {
         this.lebar = lebar;
     }
     
-    // Getter untuk panjang
+    // Getter dan Setter (opsional, untuk akses jika diperlukan)
     public double getPanjang() {
         return panjang;
     }
     
-    // Setter untuk panjang
     public void setPanjang(double panjang) {
         this.panjang = panjang;
     }
     
-    // Getter untuk lebar
     public double getLebar() {
         return lebar;
     }
     
-    // Setter untuk lebar
     public void setLebar(double lebar) {
         this.lebar = lebar;
     }
